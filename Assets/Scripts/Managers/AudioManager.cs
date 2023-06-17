@@ -1,8 +1,9 @@
 using UnityEngine;
+using Utilities;
 
 namespace Managers
 {
-	public class AudioManager : MonoBehaviour
+	public class AudioManager : MonoBehaviourSingleton<AudioManager>
 	{
 
 	}
