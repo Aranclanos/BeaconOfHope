@@ -53,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2793448997499928930, guid: 7fd3cc5661a3a0341a6da3843b041a35, type: 3}
       propertyPath: m_text
-      value: etiquette instructor
+      value: etiquette mistress
       objectReference: {fileID: 0}
     - target: {fileID: 2869113840884569000, guid: 7fd3cc5661a3a0341a6da3843b041a35, type: 3}
       propertyPath: m_Materials.Array.data[0]
