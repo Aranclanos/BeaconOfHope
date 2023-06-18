@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Managers;
+using Rooms;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -10,22 +12,24 @@ namespace Characters
 	{
 		private NavMeshAgent navMeshAgent;
 
+		public Room targetRoom;
+
 		public int dignity;
-
-		public Vector3 DEBUGtargetDestination;
-
+		
 		private void Awake()
 		{
 			navMeshAgent = GetComponent<NavMeshAgent>();
 		}
 
-		private void Update()
+		private void Start()
 		{
-			if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
-			{
-				navMeshAgent.destination = new Vector3(Random.Range(-20, 20), 0, Random.Range(-20, 20));
-				DEBUGtargetDestination = navMeshAgent.destination;
-			}
+			PickNewRoom();
+		}
+
+		public void PickNewRoom()
+		{
+			targetRoom = RoomsManager.instance.PickRandomRoom();
+			navMeshAgent.destination = targetRoom.transform.position;
 		}
 
 	}

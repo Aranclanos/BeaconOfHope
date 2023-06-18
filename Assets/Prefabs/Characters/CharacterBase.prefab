@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5182818006839036258}
   - component: {fileID: 2741088092101376080}
   - component: {fileID: 7210036078840040679}
-  - component: {fileID: 8436406840116893272}
   m_Layer: 0
   m_Name: earfluff
   m_TagString: Untagged
@@ -84,19 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8436406840116893272
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322270360960952222}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1635337976773960686
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,7 +266,6 @@ GameObject:
   - component: {fileID: 7773693144395139720}
   - component: {fileID: 358019221954678857}
   - component: {fileID: 395451436990311761}
-  - component: {fileID: 2373843318191211812}
   m_Layer: 0
   m_Name: earfluff (1)
   m_TagString: Untagged
@@ -353,19 +338,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2373843318191211812
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2903021475780566716}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4423646941839999744
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,7 +350,6 @@ GameObject:
   - component: {fileID: 2561149523777700736}
   - component: {fileID: 8728445223492893603}
   - component: {fileID: 2869113840884569000}
-  - component: {fileID: 8409876670984545595}
   m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
@@ -465,20 +436,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &8409876670984545595
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4423646941839999744}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4438908458460159018
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,7 +447,6 @@ GameObject:
   - component: {fileID: 1996756400646218290}
   - component: {fileID: 1669244575321004059}
   - component: {fileID: 6339383965922262046}
-  - component: {fileID: 7114846748938591840}
   m_Layer: 0
   m_Name: Ear
   m_TagString: Untagged
@@ -563,19 +519,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7114846748938591840
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4438908458460159018}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4902905461448393008
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,7 +716,6 @@ GameObject:
   - component: {fileID: 8113018281712432580}
   - component: {fileID: 412639863650024967}
   - component: {fileID: 4936273501126865369}
-  - component: {fileID: 5641501062000155355}
   m_Layer: 0
   m_Name: Ear
   m_TagString: Untagged
@@ -846,19 +788,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5641501062000155355
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8407663514173652033}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8416569020591792394
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,6 +799,8 @@ GameObject:
   - component: {fileID: 1268378565764306719}
   - component: {fileID: 8531755479758667573}
   - component: {fileID: 5335854402419492712}
+  - component: {fileID: 329624498303936297}
+  - component: {fileID: 6092609235103275197}
   m_Layer: 0
   m_Name: CharacterBase
   m_TagString: Untagged
@@ -906,7 +837,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -930,5 +861,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17fe1ed81aa960c429ef405ca9ea119a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetRoom: {fileID: 0}
   dignity: 0
-  DEBUGtargetDestination: {x: 0, y: 0, z: 0}
+--- !u!54 &329624498303936297
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416569020591792394}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &6092609235103275197
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416569020591792394}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 1, z: 0}
