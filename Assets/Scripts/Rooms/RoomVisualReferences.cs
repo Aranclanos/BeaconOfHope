@@ -11,6 +11,10 @@ namespace Rooms
 
 		public void UpdateInfrastructureVisual(int infrastructureLevel)
 		{
+			if (infrastructureLevel >= materialList.Count)
+			{
+				return;
+			}
 			var material = materialList[infrastructureLevel];
 			foreach (var meshRenderer in wallsList)
 			{

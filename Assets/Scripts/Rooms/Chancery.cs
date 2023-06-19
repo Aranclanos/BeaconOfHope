@@ -37,35 +37,38 @@ namespace Rooms
 
 		protected override void CharacterInteracts(Character character)
 		{
-			var randomAction = Random.Range(0, 3);
+			var randomAction = Random.Range(0, 4);
 			if (randomAction == 0)
 			{
-				AddTradeRoute();
+				StartCoroutine(character.DoWork(2, AddTradeRoute, this));
 			}
 			else if (randomAction == 1)
 			{
-				SeizeEnemyAssets();
+				StartCoroutine(character.DoWork(2, SeizeEnemyAssets, this));
 			}
 			else if (randomAction == 2)
 			{
-				DiplomaticGift();
+				StartCoroutine(character.DoWork(2, DiplomaticGift, this));
 			}
-			base.CharacterInteracts(character);
+			else
+			{
+				base.CharacterInteracts(character);
+			}
 		}
 
-		public void AddTradeRoute()
+		public void AddTradeRoute(Character character)
 		{
 			tradeRoutes++;
 			FloatingTextManager.instance.ShowFloatingText($"Chancery- added tradeRoute, total: {tradeRoutes.ToString()}", transform.position);
 		}
 		
-		public void DiplomaticGift()
+		public void DiplomaticGift(Character character)
 		{
 			ResourceManager.instance.AddFunds(diplomaticGift);
 			FloatingTextManager.instance.ShowFloatingText($"Chancery- gained {diplomaticGift.ToString()} funds: diplomat gift", transform.position);
 		}
 
-		public void SeizeEnemyAssets()
+		public void SeizeEnemyAssets(Character character)
 		{
 			ResourceManager.instance.AddFunds(enemyAssets);
 			FloatingTextManager.instance.ShowFloatingText($"Chancery- gained {enemyAssets.ToString()} funds: seized enemy assets", transform.position);

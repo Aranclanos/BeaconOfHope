@@ -1,8 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Characters;
 using Managers;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Rooms
 {
@@ -11,9 +13,12 @@ namespace Rooms
 		protected int infrastructureLevel;
 
 		private RoomVisualReferences roomVisualReferences;
-		
-		private const int infraUpgradeCost = 100;
 
+		[NonSerialized] public int availableSlots = 1;
+		private const int infraUpgradeCost = 1000;
+
+		private bool beingUpgraded;
+		
 		private void Awake()
 		{
 			roomVisualReferences = GetComponent<RoomVisualReferences>();
@@ -28,30 +33,45 @@ namespace Rooms
 		{
 			if (other.TryGetComponent<Character>(out var character))
 			{
+				if (character.isWorking)
+				{
+					return;
+				}
+
 				if (character.targetRoom == this)
 				{
-					CharacterInteracts(character);
+					if (availableSlots > 0)
+					{
+						CharacterInteracts(character);
+					}
+					else
+					{
+						character.PickNewRoom();
+					}
 				}
 			}
 		}
 
-		protected void UpgradeInfrastructure()
+		protected void UpgradeInfrastructure(Character character)
 		{
-			if (ResourceManager.instance.RemoveFunds(infraUpgradeCost))
-			{
-				infrastructureLevel++;
-				FloatingTextManager.instance.ShowFloatingText($"{gameObject.name}- used {infraUpgradeCost.ToString()} to upgrade infrastructure to {infrastructureLevel.ToString()}", transform.position);
-				roomVisualReferences.UpdateInfrastructureVisual(infrastructureLevel);
-			}
+			infrastructureLevel++;
+			availableSlots++;
+			FloatingTextManager.instance.ShowFloatingText($"{gameObject.name}- used {infraUpgradeCost.ToString()} to upgrade infrastructure to {infrastructureLevel.ToString()}", transform.position);
+			roomVisualReferences.UpdateInfrastructureVisual(infrastructureLevel);
+			beingUpgraded = false;
 		}
 
 		protected virtual void CharacterInteracts(Character character)
 		{
-			if (Random.Range(0, 100) >= 90)
+			if (Random.Range(0, 100) >= 90 && ResourceManager.instance.RemoveFunds(infraUpgradeCost) && beingUpgraded == false)
 			{
-				UpgradeInfrastructure();
+				beingUpgraded = true;
+				StartCoroutine(character.DoWork(10, UpgradeInfrastructure, this));
 			}
-			character.PickNewRoom();
+			else
+			{
+				character.PickNewRoom();
+			}
 		}
 	}
 

@@ -1,20 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using Characters;
 using UnityEngine;
 
 namespace Rooms
 {
 	public class Garden : Room
 	{
-
-		public void OpenTradeRoute()
+		protected override void CharacterInteracts(Character character)
 		{
-		
-		}
-
-		public void CollectTaxes()
-		{
-		
+			base.CharacterInteracts(character);
 		}
 	}
 }

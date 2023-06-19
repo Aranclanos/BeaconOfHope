@@ -15,6 +15,7 @@ namespace Managers
 		
 		public void ShowFloatingText(string text, Vector3 position)
 		{
+			Debug.Log(text);
 			var UItext = GetText();
 			UItext.text = text;
 			UItext.transform.position = position;

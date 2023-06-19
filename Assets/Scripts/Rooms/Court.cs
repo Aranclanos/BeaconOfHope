@@ -8,16 +8,11 @@ namespace Rooms
 	public class Court : Room
 	{
 
-		public void OpenTradeRoute()
+		protected override void CharacterInteracts(Character character)
 		{
-		
+			
+			base.CharacterInteracts(character);
 		}
-
-		public void CollectTaxes()
-		{
-		
-		}
-		
 
 	}
 }

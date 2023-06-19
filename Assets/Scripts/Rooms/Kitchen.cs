@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Characters;
 using UnityEngine;
 
 namespace Rooms
@@ -7,14 +8,9 @@ namespace Rooms
 	public class Kitchen : Room
 	{
 
-		public void OpenTradeRoute()
+		protected override void CharacterInteracts(Character character)
 		{
-		
-		}
-
-		public void CollectTaxes()
-		{
-		
+			base.CharacterInteracts(character);
 		}
 	}
 }
