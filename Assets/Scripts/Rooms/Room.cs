@@ -8,6 +8,17 @@ namespace Rooms
 {
 	public class Room : MonoBehaviour
 	{
+		protected int infrastructureLevel;
+
+		private RoomVisualReferences roomVisualReferences;
+		
+		private const int infraUpgradeCost = 100;
+
+		private void Awake()
+		{
+			roomVisualReferences = GetComponent<RoomVisualReferences>();
+		}
+
 		private void Start()
 		{
 			RoomsManager.instance.AddRoom(this);
@@ -23,9 +34,23 @@ namespace Rooms
 				}
 			}
 		}
-		
-		public virtual void CharacterInteracts(Character character)
+
+		protected void UpgradeInfrastructure()
 		{
+			if (ResourceManager.instance.RemoveFunds(infraUpgradeCost))
+			{
+				infrastructureLevel++;
+				FloatingTextManager.instance.ShowFloatingText($"{gameObject.name}- used {infraUpgradeCost.ToString()} to upgrade infrastructure to {infrastructureLevel.ToString()}", transform.position);
+				roomVisualReferences.UpdateInfrastructureVisual(infrastructureLevel);
+			}
+		}
+
+		protected virtual void CharacterInteracts(Character character)
+		{
+			if (Random.Range(0, 100) >= 90)
+			{
+				UpgradeInfrastructure();
+			}
 			character.PickNewRoom();
 		}
 	}

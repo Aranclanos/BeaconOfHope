@@ -18,11 +18,7 @@ namespace Managers
 		public int reputation;
 		public int horns;
 		
-		public int tradeRoutes;
 
-		private const int taxesReward = 1;
-		private const int diplomaticGift = 100;
-		private const int enemyAssets = 1000;
 
 		public void AddFunds(int value)
 		{
@@ -39,25 +35,7 @@ namespace Managers
 			return false;
 		}
 
-		public void AddTradeRoute()
-		{
-			tradeRoutes++;
-		}
 
-		public void CollectTaxes()
-		{
-			funds += taxesReward;
-		}
-
-		public void DiplomaticGift()
-		{
-			funds += diplomaticGift;
-		}
-
-		public void SeizeEnemyAssets()
-		{
-			funds += enemyAssets;
-		}
 	}
 
 }
