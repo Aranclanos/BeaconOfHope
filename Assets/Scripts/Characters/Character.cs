@@ -16,6 +16,7 @@ namespace Characters
 		public Transform progressBar;
 		private float progressBarPercentagePoint;
 		private NavMeshAgent navMeshAgent;
+		public List<GameObject> etiquetteList = new List<GameObject>();
 
 		//variables
 		[NonSerialized] public Room targetRoom;
@@ -23,12 +24,16 @@ namespace Characters
 		
 		//stats
 		[NonSerialized] public int dignity;
-		[NonSerialized] public int etiquette;
+		[NonSerialized] public int etiquette = -1;
 		private void Awake()
 		{
 			progressBar.gameObject.transform.parent.gameObject.SetActive(false);
 			navMeshAgent = GetComponent<NavMeshAgent>();
 			progressBarPercentagePoint = progressBar.localScale.x / 100;
+			foreach (var etiquetteObject in etiquetteList)
+			{
+				etiquetteObject.SetActive(false);
+			}
 		}
 
 		private void Start()
@@ -45,6 +50,12 @@ namespace Characters
 		public void UpgradeEtiquette()
 		{
 			etiquette++;
+			if (etiquette >= etiquetteList.Count)
+			{
+				return;
+			}
+			var etiquetteObject = etiquetteList[etiquette];
+			etiquetteObject.SetActive(true);
 		}
 		
 		public IEnumerator DoWork(float totalTime, Action<Character> action, Room room)

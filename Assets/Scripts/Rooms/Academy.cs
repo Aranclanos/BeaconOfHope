@@ -11,11 +11,12 @@ namespace Rooms
 		private int learningCost = 100;
 		protected override void CharacterInteracts(Character character)
 		{
-			if (ResourceManager.instance.RemoveFunds(learningCost))
+			var pickedActivity = Random.Range(0, 2);
+			if (pickedActivity == 0)
 			{
 				StartCoroutine(character.DoWork(10, UpgradeEtiquette, this));
 			}
-			else
+			else if (pickedActivity == 1)
 			{
 				base.CharacterInteracts(character);
 			}
