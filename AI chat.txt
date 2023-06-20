@@ -1,0 +1,144 @@
+Based on this theme:
+"Beacon of Hope" - A lighthouse keeper uses his trusty lighter to guide a lost boat home, teaching the importance of the beacon during a tender birthday celebration.
+
+
+
+
+We started to make this game:
+"Queen's Court" - A management simulation game where you manage the queen's court as an officer. The player must ensure that the queen's commitments are fulfilled, her fleet is taken care of, and the beacon is lit for any ceremonies. The gameplay loop involves managing resources, fulfilling commitments, and interacting with other court members.
+
+
+
+
+With these characters:
+Akiko - A strict disciplinarian in the court who is responsible for ensuring all court protocols are adhered to. She takes her duties very seriously and is respected for her unwavering commitment.
+
+Sakura - Known for her wild spirit and adventurous nature, Sakura is a member of the queen's hunting party. She has a passion for exploration and is often the one to bring back exotic tales from her adventures.
+
+Zō - A gentle giant, Zō, which means elephant in Japanese, is the head of the queen's fleet. She's as strong as an elephant, commanding respect and loyalty from the court and fleet alike.
+
+Satori - The understanding counselor who is always there for court members during difficult times. She provides emotional support and wise advice, helping everyone navigate through their problems.
+
+Kei - As the court's treasurer, Kei is responsible for spending and managing the court's resources wisely. Despite the challenging task during the recession, she handles her duties with remarkable efficiency.
+
+Hikari - A philosopher at heart, Hikari is always engaging court members in deep discussions about life and the nature of reality. Her philosophical approach to life brings a unique perspective to court decisions.
+
+Naoko - Known as the court's healer, Naoko has an amazing ability to heal physical wounds and ailments. Her medical knowledge and compassionate nature make her a crucial part of the court's wellbeing.
+
+Takara - The head of the queen's guard, Takara is no stranger to clashes. She's known for her strategic mind and is excellent at resolving conflicts within the court and managing external threats.
+
+Yumi - A talented court jester, Yumi is excellent at alleviating the court's stress with her amusing performances and light-hearted humor. She's an essential member of the court, lifting spirits during difficult times.
+
+Kyuri - As the court's chef, Kyuri, which means cucumber in Japanese, is known for her refreshing and innovative dishes. Her cucumber-based recipes are favorites within the court and have become symbolic of her culinary skill.
+
+Rei - As a strict etiquette teacher, Rei ensures that the queen's court maintains its high standards. She is uncompromising in her expectations and guides the court members with a firm hand.
+
+Nami - A wild and free-spirited artist, Nami brings vibrancy to the court with her creative artworks. Her artistic expression often reflects the mood of the court.
+
+Chieko - A court member with deep understanding and empathy, Chieko often mediates disagreements within the court. Her diplomatic skills help maintain harmony in the queen's court.
+
+Aiko - The queen's personal assistant, Aiko is responsible for spending the queen's personal funds. She manages the queen's schedule and ensures everything runs smoothly.
+
+Yoko - The court's scholar, Yoko often engages court members in philosophical debates. Her wisdom is valued highly in the court.
+
+Sachiko - A gentle soul, Sachiko has an innate ability to heal emotional wounds. She is often sought after for her comforting words and understanding nature.
+
+Haruko - A fiery character, Haruko isn't afraid of a good clash. She stands firm in her beliefs and defends the court with fierce loyalty.
+
+Ayano - The court's gardener, Ayano alleviates the stress of the court members by maintaining beautiful gardens. Her green spaces provide a peaceful retreat for everyone.
+
+Miyu - As the court's entertainer, Miyu knows how to amuse the court members with her mesmerizing performances. She has an ability to capture everyone's attention.
+
+Noriko - Noriko, the court's nutritionist, is known for her healthy and refreshing meals. Her specialty is cucum
+
+
+
+
+With these in-game resources:
+Funds: This is the court's treasury, which is primarily used for maintaining the dignity and comfort of the court. It's also essential for the daily operations and special events in the queen's court.
+
+Provisions: These include food, drink, and other daily necessities. These are used to maintain the health and comfort of court members. A portion of these resources may be dedicated to native foods and delicacies to maintain the unique identity of the court.
+
+Manpower: This is the labor force within the queen's court, used for various functions such as maintenance, security, ceremonies, etc. Players may need to reconcile differences between manpower groups to ensure smooth operations.
+
+Fleet: The ships at the queen's disposal, which are crucial for exploration, trade, defense, and demonstrating power. It's important to keep the fleet in top shape, considering it as a franchise of the queen's power.
+
+Alliances: Diplomatic relationships with other kingdoms, often requiring resources for diplomatic missions, gift exchanges, or assistance in times of crisis. A partnership with another kingdom can bring mutual benefits.
+
+Arms and Armaments: The equipment for the queen's guard and fleet. These are essential to protect the court and kingdom from external threats and to maintain liberty.
+
+Information: Reports and updates from scouts, spies, or diplomats. This resource may reveal strange formations of enemy forces, potential threats, or opportunities. It can also be crucial in situations of hostage negotiation.
+
+Infrastructure: The buildings and structures within the court, such as rooms, halls, lighthouse, fleet docks, etc. These require resources for construction, maintenance, and upgrades.
+
+Reputation: The standing of the queen's court within the kingdom and with other kingdoms. This can be improved by successful completion of quests, diplomatic gestures, and efficient court management. Reputation is crucial to attract partnerships and avoid hostility.
+
+Horns: As a representation of communication resources, horns are used to send messages across the fleet or signal important events. These may need to be replaced or repaired periodically.
+
+
+
+
+Gaining Funds
+
+Trade: As the officer managing the queen's court, players can establish trade routes with other kingdoms. By trading local commodities or rare artifacts obtained from quests or discoveries, players can amass ample funds for the court.
+
+Tax Collection: The court collects taxes from its citizens. The rate and method of tax collection can be adjusted by the player, taking care to balance the kingdom's prosperity and the citizens' happiness.
+
+Diplomatic Gifts: Occasionally, diplomatic envoys will visit the queen's court. They often come bearing gifts as tokens of friendship or alliance, contributing to the court's funds.
+
+Spoils of War: During conflicts with enemies, victory can result in seizing enemy assets, contributing to the court's funds. However, this approach also carries the risk of retaliation or worsening diplomatic relations.
+
+Using Funds
+
+Infrastructure: A significant portion of the funds will be utilized for maintaining and upgrading the infrastructure. This includes the queen's court, the lighthouse, fleet docks, and other important structures.
+
+Education: The court holds a classroom setting for court members and citizens to learn various skills and knowledge. Funds are needed to maintain the classroom, hire teachers, and purchase educational materials.
+
+Fleet and Army: Funds are necessary to maintain and upgrade the queen's fleet and army. This includes buying new ships, weapons, and armor, as well as paying the salaries of the sailors and soldiers.
+
+Diplomacy: Diplomatic missions often require funds for gifts or for supporting allied kingdoms in times of need. Building good diplomatic relationships can be an effective defense strategy.
+
+Court Expenses: Funds are required for running the daily affairs of the court, from holding grand feasts to paying the court staff and maintaining a comfortable living environment for court members.
+
+
+
+
+Gaining Provisions
+
+Initial Harvest: At the beginning of each in-game season, there's an initial harvest of the kingdom's agricultural lands, which contributes to the court's provisions. This includes food grains, fruits, vegetables, and other local produce.
+
+Governor's Tribute: Each region within the kingdom has a governor who is responsible for sending a portion of their region's produce as a tribute to the queen's court. These tributes significantly supplement the court's provisions.
+
+Trade at the Bar: The court's bar, which serves as a bustling hub for merchants and traders, is a great place to acquire exotic provisions. Players can exchange local commodities or use funds to procure unique and scarce items.
+
+Card Games: The court occasionally hosts card games where the stakes are various provisions. Players can participate in these games to try their luck and possibly win a significant amount of provisions.
+
+Deporting Offenders: Any offenders within the court or the kingdom are deported to work on the kingdom's farms. The produce from these farms, maintained by the offenders, contributes to the court's provisions.
+
+Booking Special Deliveries: The player can book special deliveries of provisions from other kingdoms through the game's marketplace. These deliveries can include unique or high-quality provisions.
+
+Grief Support: In times of grief, such as the death of a court member or a calamity, neighboring kingdoms and allies often send support in the form of provisions as a gesture of goodwill.
+
+Deleting Waste: By implementing strict waste management policies, the player can significantly reduce the amount of wasted provisions. This not only helps conserve resources but also improves the court's efficiency.
+
+Break Time Activities: During their break times, court members can engage in activities such as fishing, hunting, or foraging. The resources gained from these activities contribute to the court's provisions.
+
+Using Provisions
+
+Feeding the Court: The primary use of provisions is to feed the court members. The player must ensure that all court members are adequately fed, taking into consideration their individual preferences and nutritional requirements.
+
+Trade: Provisions, especially unique or high-quality ones, can be used as trading commodities. They can be traded at the bar for other resources or used to establish new trade routes.
+
+Bribing Offenders: In some cases, provisions can be used to bribe offenders to prevent potential conflicts or maintain peace. However, this action might lead to reputation loss if not handled carefully.
+
+Medical Purposes: Some provisions, especially herbs and certain food items, can be used for medicinal purposes. These can be used to treat illnesses or prepare preventive remedies for common diseases.
+
+Celebrations and Ceremonies: During celebrations, ceremonies, or diplomatic visits, provisions are used to prepare grand feasts. The quality and variety of the feast significantly influence the court's reputation.
+
+Bartering with Cards: Unique or high-quality provisions can be used as stakes in card games. Winning these games can result in gaining rare items or resources.
+
+Support in Times of Grief: In case a neighboring kingdom or ally is experiencing a tragedy, the player can choose to send provisions as a gesture of goodwill and support.
+
+Dealing with Bookings: Provisions can be used to fulfill special orders or bookings made by other kingdoms. Fulfilling these orders can improve trade relations and contribute to the court's funds.
+
+Maintenance of the Lighthouse: A portion of the provisions is set aside for the lighthouse keeper. The lighthouse keeper ensures that the lighthouse, the beacon of hope, is always operational, guiding the queen's fleet home.
